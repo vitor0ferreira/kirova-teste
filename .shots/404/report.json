@@ -1,0 +1,170 @@
+{
+  "url": "http://127.0.0.1:4400/__shoot-missing-page-1794875199131",
+  "errors": [],
+  "failed": [],
+  "desktop": {
+    "loaderMs": 902,
+    "vitals": {
+      "lcpMs": 140,
+      "lcpElement": "h1",
+      "cls": 0.024
+    },
+    "height": 900,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Estação não localizada neste barramento."
+    ],
+    "smallTargets": [],
+    "glHidden": [],
+    "title": "404 · Estação não localizada | Kairova",
+    "glOn": true,
+    "scrollFps": {
+      "fps": 42,
+      "worstFrameMs": 50
+    },
+    "nav": {
+      "href": "/sobre",
+      "scrollYAfter": 0,
+      "title": "História, Cultura e Engenharia | Kairova"
+    },
+    "idleMotion": true,
+    "idleAt": "top"
+  },
+  "mobile": {
+    "throttled": true,
+    "loaderMs": 2786,
+    "vitals": {
+      "lcpMs": 748,
+      "lcpElement": "h1",
+      "cls": 0.043
+    },
+    "height": 1244,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Estação não localizada neste barramento."
+    ],
+    "smallTargets": [],
+    "glHidden": [],
+    "title": "404 · Estação não localizada | Kairova",
+    "glOn": true,
+    "scrollFps": {
+      "fps": 57,
+      "worstFrameMs": 33
+    }
+  },
+  "files": [
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-00-firstpaint.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-02-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-03-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-04-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-05-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-06-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-07-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-90-transition-a.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-90-transition-b.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-90-transition-c.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-91-after-nav.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\d-92-back.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\k-01-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\k-02-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\k-03-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\k-04-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\h-01-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\h-01-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\h-02-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\h-02-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\h-03-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\h-03-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\h-04-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\h-04-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\m-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\m-02-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\m-03-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\m-04-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\m-05-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\m-06-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\r-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\404\\r-02-mid.png"
+  ],
+  "notes": [
+    "desktop FPS runs headless on a software GPU: treat it as a floor, not a measurement of real hardware",
+    "mobile runs at 4x CPU slowdown on slow 4G: mobile.vitals and mobile.scrollFps are the numbers that count"
+  ],
+  "keyboard": {
+    "stops": [
+      "a \"Pular para o conteúdo principal (#main)\"",
+      "a \"KAIROVA UBERABA · MG (Página inicial)\"",
+      "a \"Hardware\"",
+      "a \"Software\"",
+      "a \"Casos\"",
+      "a \"Sobre\"",
+      "a \"Viabilidade\"",
+      "a \"Rearmar circuito e voltar ao início\"",
+      "(body: focus left the page)"
+    ],
+    "skipLinkFirst": true,
+    "noVisibleFocus": [],
+    "invisibleFocus": [],
+    "stuck": false
+  },
+  "hover": {
+    "targets": [
+      {
+        "shot": "h-01",
+        "label": "a \"Rearmar circuito e voltar ao início\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "clipPath"
+        ]
+      },
+      {
+        "shot": "h-02",
+        "label": "a \"KAIROVA UBERABA · MG (Página inicial)\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "translate",
+          "transform"
+        ]
+      },
+      {
+        "shot": "h-03",
+        "label": "a \"Hardware\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "translate"
+        ]
+      },
+      {
+        "shot": "h-04",
+        "label": "a \"Viabilidade\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "clipPath"
+        ]
+      }
+    ],
+    "noHoverChange": [],
+    "colorOnly": [],
+    "covered": [],
+    "cursorFollower": true
+  },
+  "reduced": {
+    "hiddenText": 0
+  },
+  "a11y": {
+    "violations": [],
+    "serious": 0,
+    "contrastNeedsReview": 8
+  }
+}

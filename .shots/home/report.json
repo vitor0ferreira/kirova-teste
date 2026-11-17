@@ -1,0 +1,234 @@
+{
+  "url": "http://127.0.0.1:4400/",
+  "errors": [],
+  "failed": [],
+  "desktop": {
+    "loaderMs": 1578,
+    "vitals": {
+      "lcpMs": 392,
+      "lcpElement": "img",
+      "cls": 0
+    },
+    "height": 9649,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Energia no tempo\ncerto. Movimento\nsem pausas."
+    ],
+    "smallTargets": [],
+    "glHidden": [],
+    "title": "Kairova | Energia no tempo certo. Movimento sem pausas.",
+    "glOn": true,
+    "scrollFps": {
+      "fps": 35,
+      "worstFrameMs": 84
+    },
+    "nav": {
+      "href": "/sobre",
+      "scrollYAfter": 0,
+      "title": "História, Cultura e Engenharia | Kairova"
+    },
+    "idleMotion": true,
+    "idleAt": "top"
+  },
+  "mobile": {
+    "throttled": true,
+    "loaderMs": 4535,
+    "vitals": {
+      "lcpMs": 2128,
+      "lcpElement": "img",
+      "cls": 0
+    },
+    "height": 13999,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Energia no tempo\ncerto. Movimento\nsem pausas."
+    ],
+    "smallTargets": [],
+    "glHidden": [],
+    "title": "Kairova | Energia no tempo certo. Movimento sem pausas.",
+    "glOn": true,
+    "scrollFps": {
+      "fps": 57,
+      "worstFrameMs": 83
+    }
+  },
+  "files": [
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-00-firstpaint.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-02-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-03-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-04-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-05-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-06-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-07-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-90-transition-a.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-90-transition-b.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-90-transition-c.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-91-after-nav.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\d-92-back.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\k-01-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\k-02-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\k-03-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\k-04-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-01-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-01-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-02-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-02-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-03-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-03-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-04-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-04-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-05-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-05-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-06-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-06-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-07-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-07-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-08-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\h-08-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\m-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\m-02-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\m-03-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\m-04-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\m-05-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\m-06-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\r-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\home\\r-02-mid.png"
+  ],
+  "notes": [
+    "desktop FPS runs headless on a software GPU: treat it as a floor, not a measurement of real hardware",
+    "mobile runs at 4x CPU slowdown on slow 4G: mobile.vitals and mobile.scrollFps are the numbers that count"
+  ],
+  "keyboard": {
+    "stops": [
+      "a \"Pular para o conteúdo principal (#main)\"",
+      "a \"KAIROVA UBERABA · MG (Página inicial)\"",
+      "a \"Hardware\"",
+      "a \"Software\"",
+      "a \"Casos\"",
+      "a \"Sobre\"",
+      "a \"Viabilidade\"",
+      "a \"Solicitar estudo de viabilidade\"",
+      "a \"Simular barramento GridGuard\"",
+      "button \"Turno industrial (85%)\"",
+      "button \"Troca de turno (55%)\"",
+      "button \"Janela fora de ponta (20%)\""
+    ],
+    "skipLinkFirst": true,
+    "noVisibleFocus": [],
+    "invisibleFocus": [],
+    "stuck": false
+  },
+  "hover": {
+    "targets": [
+      {
+        "shot": "h-01",
+        "label": "figure \"Pátio logístico ao amanhecer em Uberaba \"",
+        "interactive": false,
+        "primary": false,
+        "react": "pixels",
+        "changed": []
+      },
+      {
+        "shot": "h-02",
+        "label": "a \"Cooperativa Triângulo Verde Agronegócio \"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "backgroundColor",
+          "transform",
+          "translate",
+          "color",
+          "borderColor",
+          "textDecorationColor",
+          "follower"
+        ]
+      },
+      {
+        "shot": "h-03",
+        "label": "button \"Turno industrial (85%)\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "color",
+          "textDecorationColor",
+          "backgroundPosition",
+          "transform",
+          "borderColor"
+        ]
+      },
+      {
+        "shot": "h-04",
+        "label": "button \"Troca de turno (55%)\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "color",
+          "textDecorationColor",
+          "transform",
+          "borderColor"
+        ]
+      },
+      {
+        "shot": "h-05",
+        "label": "button \"Equipamento em foco no painel\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "backgroundPosition",
+          "transform"
+        ]
+      },
+      {
+        "shot": "h-06",
+        "label": "button \"Destacar especificações no painel\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "backgroundPosition",
+          "transform"
+        ]
+      },
+      {
+        "shot": "h-07",
+        "label": "button \"Calcular pré-dimensionamento e registrar\"",
+        "interactive": true,
+        "primary": false,
+        "react": "moves",
+        "changed": [
+          "borderColor",
+          "clipPath"
+        ]
+      },
+      {
+        "shot": "h-08",
+        "label": "a \"Solicitar estudo de viabilidade\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "clipPath"
+        ]
+      }
+    ],
+    "noHoverChange": [],
+    "colorOnly": [],
+    "covered": [],
+    "cursorFollower": true
+  },
+  "reduced": {
+    "hiddenText": 0
+  },
+  "a11y": {
+    "violations": [],
+    "serious": 0,
+    "contrastNeedsReview": 22
+  }
+}

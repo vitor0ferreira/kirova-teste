@@ -1,0 +1,197 @@
+{
+  "url": "http://127.0.0.1:4400/cases/cooperativa-agroindustrial-triangulo",
+  "errors": [],
+  "failed": [],
+  "desktop": {
+    "loaderMs": 1089,
+    "vitals": {
+      "lcpMs": 200,
+      "lcpElement": "img",
+      "cls": 0
+    },
+    "height": 3687,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Cooperativa\nTriângulo Verde"
+    ],
+    "smallTargets": [],
+    "glHidden": [],
+    "title": "Cooperativa Triângulo Verde | Kairova",
+    "glOn": true,
+    "scrollFps": {
+      "fps": 43,
+      "worstFrameMs": 83
+    },
+    "nav": {
+      "href": "/sobre",
+      "scrollYAfter": 0,
+      "title": "História, Cultura e Engenharia | Kairova"
+    },
+    "idleMotion": true,
+    "idleAt": "top"
+  },
+  "mobile": {
+    "throttled": true,
+    "loaderMs": 2966,
+    "vitals": {
+      "lcpMs": 3036,
+      "lcpElement": "p.case-header__summary",
+      "cls": 0
+    },
+    "height": 4321,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Cooperativa\nTriângulo Verde"
+    ],
+    "smallTargets": [],
+    "glHidden": [],
+    "title": "Cooperativa Triângulo Verde | Kairova",
+    "glOn": true,
+    "scrollFps": {
+      "fps": 57,
+      "worstFrameMs": 50
+    }
+  },
+  "files": [
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-00-firstpaint.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-02-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-03-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-04-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-05-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-06-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-07-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-90-transition-a.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-90-transition-b.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-90-transition-c.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-91-after-nav.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\d-92-back.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\k-01-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\k-02-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\k-03-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\k-04-focus.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-01-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-01-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-02-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-02-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-03-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-03-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-04-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-04-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-05-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-05-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-06-rest.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\h-06-hover.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\m-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\m-02-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\m-03-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\m-04-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\m-05-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\m-06-scroll.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\r-01-hero.png",
+    "C:\\Programação\\kirova_teste\\.shots\\cases-item\\r-02-mid.png"
+  ],
+  "notes": [
+    "desktop FPS runs headless on a software GPU: treat it as a floor, not a measurement of real hardware",
+    "mobile runs at 4x CPU slowdown on slow 4G: mobile.vitals and mobile.scrollFps are the numbers that count"
+  ],
+  "keyboard": {
+    "stops": [
+      "a \"Pular para o conteúdo principal (#main)\"",
+      "a \"KAIROVA UBERABA · MG (Página inicial)\"",
+      "a \"Hardware\"",
+      "a \"Software\"",
+      "a \"Casos\"",
+      "a \"Sobre\"",
+      "a \"Viabilidade\"",
+      "a \"Solicitar estudo semelhante\"",
+      "a \"PRÓXIMA ARQUITETURA Malha Urbana Sudeste\"",
+      "input \"Nome e cargo\"",
+      "input \"Empresa e cidade\"",
+      "input \"E-mail corporativo\""
+    ],
+    "skipLinkFirst": true,
+    "noVisibleFocus": [],
+    "invisibleFocus": [],
+    "stuck": false
+  },
+  "hover": {
+    "targets": [
+      {
+        "shot": "h-01",
+        "label": "figure \"Entardecer em pátio agroindustrial no Tr\"",
+        "interactive": false,
+        "primary": false,
+        "react": "pixels",
+        "changed": []
+      },
+      {
+        "shot": "h-02",
+        "label": "button \"Calcular pré-dimensionamento e registrar\"",
+        "interactive": true,
+        "primary": false,
+        "react": "moves",
+        "changed": [
+          "borderColor",
+          "clipPath"
+        ]
+      },
+      {
+        "shot": "h-03",
+        "label": "a \"Solicitar estudo semelhante\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "clipPath"
+        ]
+      },
+      {
+        "shot": "h-04",
+        "label": "a \"PRÓXIMA ARQUITETURA Malha Urbana Sudeste\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "borderColor",
+          "translate"
+        ]
+      },
+      {
+        "shot": "h-05",
+        "label": "a \"Telefone: +55 (34) 3318-9400\"",
+        "interactive": true,
+        "primary": false,
+        "react": "pixels",
+        "changed": []
+      },
+      {
+        "shot": "h-06",
+        "label": "a \"contato@kairova.com.br\"",
+        "interactive": true,
+        "primary": false,
+        "react": "moves",
+        "changed": [
+          "color",
+          "borderColor",
+          "textDecorationColor",
+          "backgroundSize"
+        ]
+      }
+    ],
+    "noHoverChange": [],
+    "colorOnly": [],
+    "covered": [],
+    "cursorFollower": true
+  },
+  "reduced": {
+    "hiddenText": 0
+  },
+  "a11y": {
+    "violations": [],
+    "serious": 0,
+    "contrastNeedsReview": 7
+  }
+}

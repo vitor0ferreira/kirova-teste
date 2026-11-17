@@ -1,0 +1,75 @@
+.gridguard-wrap.iso {
+  --anatomy-page: var(--c-bg);
+  --anatomy-card: var(--c-surface);
+  --anatomy-text: var(--c-fg);
+  --anatomy-strong: var(--c-fg);
+  --anatomy-muted: var(--c-muted);
+  --anatomy-paper: var(--c-surface);
+  --anatomy-face: #103229;
+  --anatomy-top: #ffffff;
+  --anatomy-shade-0: #cedbd6;
+  --anatomy-shade-1: #dae4e0;
+  --anatomy-shade-2: #e6eeeb;
+  --anatomy-shade-3: #f0f5f3;
+  --anatomy-lit-top: #184237;
+  --anatomy-lit-shade: #0f2922;
+  --anatomy-hi: #0f2922;
+  --anatomy-mid: #435c54;
+  --anatomy-lo: #8ca19a;
+  --anatomy-faint: #c6d3ce;
+  --anatomy-lit: #128a41;
+  --anatomy-halo: #0f2922;
+  --anatomy-halo-opacity: 0.14;
+  --anatomy-dot: #32e875;
+  --anatomy-mono: var(--f-mono);
+  --anatomy-weight: 0.75px;
+}
+
+.gridguard-wrap .iso-plate {
+  border-radius: var(--radius);
+  box-shadow: 0 0 0 1px var(--c-line);
+  padding: 54px 28px;
+}
+
+.gg {
+  cursor: ew-resize;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.gg:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 6px;
+  border-radius: 2px;
+}
+
+.gg-shadow {
+  filter: blur(4px);
+  opacity: 0.35;
+  transform: translateY(1px);
+}
+
+.gg-coil {
+  stroke-linejoin: round;
+}
+
+.gg-needle {
+  fill: var(--anatomy-dot);
+  stroke: var(--anatomy-hi);
+}
+
+@media (max-width: 640px) {
+  .gridguard-wrap .iso-plate {
+    padding: 50px 12px 72px;
+  }
+  .gridguard-wrap .iso-plate-corner[data-corner='hint'] {
+    bottom: 22px;
+    max-width: 75%;
+    white-space: normal;
+  }
+  .gridguard-wrap .gg .iso-svg {
+    width: 112%;
+    margin: -2% -6%;
+  }
+}
