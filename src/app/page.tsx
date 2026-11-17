@@ -60,7 +60,7 @@ export default function HomePage() {
       </section>
 
       {/* 2. TABULAR DATA STRIP */}
-      <section className="stats-band" data-chapter-theme="light" aria-label="Indicadores operacionais da Kairova">
+      <section className="stats-band" data-chapter-theme="light" aria-label="Indicadores operacionais da Kirova">
         <div className="container stats-grid">
           {keyStats.map((stat) => (
             <div key={stat.label} className="stat-cell" data-reveal="up">
@@ -77,7 +77,7 @@ export default function HomePage() {
           <div className="section-head">
             <div className="section-head__main">
               <span className="mono-tag">BALANCEAMENTO DINÂMICO DE CARGA · DLM</span>
-              <h2 data-split="lines">Como a Kairova protege o transformador sem travar a frota</h2>
+              <h2 data-split="lines">Como a Kirova protege o transformador sem travar a frota</h2>
             </div>
             <p className="section-head__side" data-reveal="fade">
               Operar vans e caminhões elétricos exige previsibilidade na entrada de energia. Quando a fábrica acelera o turno, o controlador físico GridGuard mede a corrente no barramento e ajusta em segundos a potência entregue às baias de recarga.
@@ -132,7 +132,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. ASYMMETRIC CONSOLE (KAIROVA OS & PAY) & TURNKEY SERVICES */}
+      {/* 5. ASYMMETRIC CONSOLE (KIROVA OS & PAY) & TURNKEY SERVICES */}
       <section id="software" className="software-band" data-chapter-theme="light">
         <div className="container">
           <div className="section-head">
@@ -141,14 +141,14 @@ export default function HomePage() {
               <h2 data-split="lines">Do laudo na concessionária à cobrança por kWh</h2>
             </div>
             <p className="section-head__side" data-reveal="fade">
-              Enquanto carregadores importados genéricos deixam o gestor sem pós-venda e multinacionais operam com contratos engessados em dólar, a Kairova entrega software nativo e equipe própria certificada.
+              Enquanto carregadores importados genéricos deixam o gestor sem pós-venda e multinacionais operam com contratos engessados em dólar, a Kirova entrega software nativo e equipe própria certificada.
             </p>
           </div>
 
           <div className="software-layout">
             <div className="console-panel" data-reveal="up">
               <div className="console-panel__header">
-                <span className="mono-tag">KAIROVA OS · MODO TELEMETRIA</span>
+                <span className="mono-tag">KIROVA OS · MODO TELEMETRIA</span>
                 <span className="console-badge">ALERTA ÂMBAR ATIVO · OCPP 2.0.1</span>
               </div>
               {softwareModules.map((mod) => (

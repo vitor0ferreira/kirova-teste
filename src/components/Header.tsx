@@ -61,7 +61,7 @@ export function Header() {
         <div className="site-header__bar frame__tl">
           <Link href="/" className="brand-link">
             <LogoMark size={24} className="brand-link__mark" />
-            <span className="brand-link__name">KAIROVA</span>
+            <span className="brand-link__name">KIROVA</span>
             <span className="brand-link__city">UBERABA · MG</span>
             <span className="sr-only"> (Página inicial)</span>
           </Link>
@@ -115,7 +115,7 @@ export function Header() {
         aria-label="Menu mobile"
       >
         <div className="mobile-menu__head">
-          <span className="mono-tag">KAIROVA · UBERABA, MG</span>
+          <span className="mono-tag">KIROVA · UBERABA, MG</span>
           <button
             type="button"
             className="menu-close"

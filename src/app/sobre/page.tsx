@@ -8,7 +8,7 @@ import { companyStory, site } from '@/data/site';
 export const metadata: Metadata = {
   title: 'História, Cultura e Engenharia',
   description:
-    'Fundada em 2021 em Uberaba, MG, a Kairova combina engenharia elétrica de potência, desenvolvimento IoT e operações presenciais em 9 estados.',
+    'Fundada em 2021 em Uberaba, MG, a Kirova combina engenharia elétrica de potência, desenvolvimento IoT e operações presenciais em 9 estados.',
 };
 
 export default function SobrePage() {

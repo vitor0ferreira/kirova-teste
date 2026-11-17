@@ -36,7 +36,7 @@ float fbm(vec2 p) {
   for (int i = 0; i < 4; i++) { v += a * noise(p); p *= 2.02; a *= 0.5; }
   return v;
 }
-// 45-degree diagonal circuit wipe (Kairova "O Pulso Preciso").
+// 45-degree diagonal circuit wipe (Kirova "O Pulso Preciso").
 float revealMask(vec2 uv) {
   float diag = (uv.x * 0.65 + uv.y * 0.75);
   float edge = uReveal * 1.6 - 0.14 + (noise(uv * vec2(8.0, 4.0) + uTime * 0.15) - 0.5) * 0.06;
@@ -68,7 +68,7 @@ void main() {
   gl_FragColor = vec4(col, 1.0) * revealMask(vUv);
 }`;
 
-// Procedural plane: seeded oscillographic harmonic field in Kairova palette.
+// Procedural plane: seeded oscillographic harmonic field in Kirova palette.
 export const proceduralFragment = /* glsl */ `
 ${common}
 uniform vec3 uC1;

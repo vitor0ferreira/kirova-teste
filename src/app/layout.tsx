@@ -73,7 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="loader__inner">
             <div className="loader__brand" data-loader-out>
               <LogoMark size={32} />
-              <span className="loader__name">KAIROVA</span>
+              <span className="loader__name">KIROVA</span>
             </div>
             <span className="loader__count" data-loader-out data-loader-count>
               000 V

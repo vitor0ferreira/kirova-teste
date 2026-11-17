@@ -1,8 +1,8 @@
-# DESIGN.md — Kairova Engenharia & Mobilidade Sustentável S.A.
+# DESIGN.md — Kirova Engenharia & Mobilidade Sustentável S.A.
 
 ## Phase 0: Brief
 
-- **Subject**: **Kairova Engenharia & Mobilidade Sustentável S.A.** (Nome Fantasia: **Kairova**), fundada em 2021 em Uberaba, MG, por Henrique Bastos (Engenharia Elétrica), Camila Nogueira (Engenharia de Software e IoT) e Rafael Telles (Gestão de Cadeias Logísticas).
+- **Subject**: **Kirova Engenharia & Mobilidade Sustentável S.A.** (Nome Fantasia: **Kirova**), fundada em 2021 em Uberaba, MG, por Henrique Bastos (Engenharia Elétrica), Camila Nogueira (Engenharia de Software e IoT) e Rafael Telles (Gestão de Cadeias Logísticas).
 - **Scale**: 145 colaboradores diretos, faturamento anual projetado de R$ 48 milhões em 2026, atuação em 9 estados brasileiros e mais de 1.800 pontos de recarga inteligentes sob gestão (HaaS + SaaS + Engenharia Turnkey + NOC 24/7 com SLA presencial de 6 horas).
 - **Audience**: Diretores de Logística e Gestores de Frota, Gerentes de Facilities e Sustentabilidade (ESG), Incorporadoras e Administradoras de Condomínios Logísticos (B2B e B2G).
 - **Job**: Converter decisores C-Level e diretores operacionais para estudos de viabilidade elétrica e implantação turnkey de eletropostos corporativos, demonstrando engenharia nacional robusta e retorno auditável.
@@ -17,15 +17,15 @@
 
 | Territory | Concept | Anchor | Signature | Emotion (3s) | Motion Verb | Screenshot Frame | O | F | Fe | P (lower=better) | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **A. Process & Material (Selected)** | **O Barramento de Carga Dinâmico**: o site opera como um barramento industrial que roteia capacidade da subestação até as baias de recarga conforme você percorre a página. | O controlador proprietário **Kairova GridGuard (DLM)** e a barra LED cinética visível a 50 m no chassi galvanizado `#0F2922`. | Driver único (`src/motion/driver.ts`) acoplando WebGL de campo trifásico + simulador de demanda no Hero + figura isométrica `/anatomy` do barramento GridGuard. | Autoridade industrial, precisão de subestação e controle imediato de energia. | **Engatar e estabilizar** (acionamento seco de contator seguido de amortecimento exponencial `expo.out`). | Hero dividido com foto de pátio ao amanhecer, barra LED `#32E875` ativa e simulador de carga do transformador em tempo real. | 5 | 5 | 5 | 1 | **14** |
-| B. Name / Etymology | **A Janela Kairós (Tarifa Branca/Verde)**: toda a navegação segue o relógio de despacho fora de ponta, alterando custo/kWh e iluminação do pátio ao longo das 24 horas. | A origem do nome *Kairós* (momento certo) e o agendamento fora de ponta do Kairova OS. | Timeline de 24h acoplada ao scroll mudando o céu e a tarifa de energia. | Controle econômico e ritmo logístico noturno. | **Chavear janela** | Barra horária de tarifa verde/branca cruzando um pátio logístico. | 4 | 4 | 4 | 2 | 10 |
+| **A. Process & Material (Selected)** | **O Barramento de Carga Dinâmico**: o site opera como um barramento industrial que roteia capacidade da subestação até as baias de recarga conforme você percorre a página. | O controlador proprietário **Kirova GridGuard (DLM)** e a barra LED cinética visível a 50 m no chassi galvanizado `#0F2922`. | Driver único (`src/motion/driver.ts`) acoplando WebGL de campo trifásico + simulador de demanda no Hero + figura isométrica `/anatomy` do barramento GridGuard. | Autoridade industrial, precisão de subestação e controle imediato de energia. | **Engatar e estabilizar** (acionamento seco de contator seguido de amortecimento exponencial `expo.out`). | Hero dividido com foto de pátio ao amanhecer, barra LED `#32E875` ativa e simulador de carga do transformador em tempo real. | 5 | 5 | 5 | 1 | **14** |
+| B. Name / Etymology | **A Janela Kairós (Tarifa Branca/Verde)**: toda a navegação segue o relógio de despacho fora de ponta, alterando custo/kWh e iluminação do pátio ao longo das 24 horas. | A origem do nome *Kairós* (momento certo) e o agendamento fora de ponta do Kirova OS. | Timeline de 24h acoplada ao scroll mudando o céu e a tarifa de energia. | Controle econômico e ritmo logístico noturno. | **Chavear janela** | Barra horária de tarifa verde/branca cruzando um pátio logístico. | 4 | 4 | 4 | 2 | 10 |
 | C. Place / Material | **Chassi Galvanizado IP66**: cada seção é uma placa de aço microtexturizado aparafusada por pinos RFID, resistente a 40°C e chuva torrencial. | Proteção física IP66/IK10 e estética industrial do Triângulo Mineiro. | Camadas recortadas por dobras de chapa e parafusos de inspeção. | Solidez mecânica à prova de vandalismo e campo pesado. | **Travar com torque** | Grade metálica escura com indicadores LED verticais. | 4 | 5 | 4 | 2 | 11 |
 
 **Selected Concept**: **A (O Barramento de Carga Dinâmico)** — lowest portability (1/5: inextricably tied to GridGuard DLM, 500 kVA substation constraints, and HaaS/SaaS fleet charging), drives layout, global color transitions, WebGL field lines, the `/anatomy` isometric figure, loader voltage counter, 45° K-circuit transitions, and the 404 open-circuit state.
 
 ### Concept Card
 ```
-Idea:        A corporate showcase behaving as a live industrial busbar that balances substation power across Kairova hardware, cloud telemetry, and turnkey field operations.
+Idea:        A corporate showcase behaving as a live industrial busbar that balances substation power across Kirova hardware, cloud telemetry, and turnkey field operations.
 Metaphor:    An industrial load-dispatch bench and galvanized steel IP66 charger chassis pierced by a 50-meter kinetic lime status LED.
 Signature:   Single busbar driver coupling a fullscreen oscillographic WebGL field, an interactive Hero substation demand toggle, and a 50+ part isometric /anatomy GridGuard load bench.
 Emotion:     Grounded engineering authority, zero greenwashing, and measurable control over energy capacity.
@@ -37,7 +37,7 @@ Screenshot:  The split Hero with dawn logistics yard photography, 380V telemetry
 
 ## Phase 2: Art Direction System
 
-### Palette (Strategic Kairova Tokens)
+### Palette (Strategic Kirova Tokens)
 - `--c-bg`: `#F4F7F6` (Branco Gelo Técnico — reading chapters ground; switches to `#0F2922` when `html.is-dark` is active)
 - `--c-fg`: `#0F2922` (Verde Grafite Profundo — primary ink on light; switches to `#F4F7F6` when `html.is-dark` is active)
 - `--c-surface`: `#FFFFFF` (light) / `#16382E` (dark)
@@ -79,7 +79,7 @@ Screenshot:  The split Hero with dawn logistics yard photography, 380V telemetry
                                                           | [03 GridGuard DLM]
 
 5. ASYMMETRIC CONSOLE & TURNKEY SERVICES (Cinza Titânio #2C3539 dark inset + light cols):
-   [Kairova OS & Pay & Roaming Dark Console Card]         | [3 Specialized Services: Viabilidade, Turnkey NR-10/35, NOC 24/7]
+   [Kirova OS & Pay & Roaming Dark Console Card]         | [3 Specialized Services: Viabilidade, Turnkey NR-10/35, NOC 24/7]
 
 6. INDEX LIST WITH CURSOR PREVIEW (light ground):
    [Case 01: Cooperativa Triângulo Verde  | Agroindústria · MG   | 480 kW] -> floating photo preview on desktop,
@@ -92,7 +92,7 @@ Screenshot:  The split Hero with dawn logistics yard photography, 380V telemetry
 
 8. FOOTER AS FINALE & VIABILITY REQUEST (dark #0F2922 ground):
    [Interactive Technical Viability Estimator Form] | [Uberaba HQ Address, Phone, WhatsApp, Email]
-   [Giant KAIROVA wordmark]
+   [Giant KIROVA wordmark]
 ```
 
 ### Genericness Test

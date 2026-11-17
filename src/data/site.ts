@@ -1,6 +1,6 @@
 // Explicit assumptions (per DESIGN.md):
 // 1. The 3 field case studies below (placeholder: true) model realistic Brazilian B2B deployments
-//    reflecting the three ICP profiles and the 2023 agro-industrial cooperative milestone in the Kairova dossier.
+//    reflecting the three ICP profiles and the 2023 agro-industrial cooperative milestone in the Kirova dossier.
 // 2. The Hero transformer simulator and footer viability calculator run client-side without an external CRM API.
 
 export type HardwareItem = {
@@ -52,10 +52,10 @@ export type CaseStudy = {
 };
 
 export const site = {
-  name: 'Kairova',
-  legalName: 'Kairova Engenharia & Mobilidade Sustentável S.A.',
+  name: 'Kirova',
+  legalName: 'Kirova Engenharia & Mobilidade Sustentável S.A.',
   tagline: 'Energia no tempo certo. Movimento sem pausas.',
-  url: 'https://www.kairova.com.br',
+  url: 'https://www.kirova.com.br',
   description:
     'Infraestrutura nacional de recarga elétrica inteligente, balanceamento dinâmico GridGuard e software de gestão energética para frotas corporativas e galpões logísticos.',
   location: {
@@ -69,7 +69,7 @@ export const site = {
     phoneHref: 'tel:+553433189400',
     whatsapp: '+55 (34) 99842-7100',
     whatsappHref: 'https://wa.me/5534998427100',
-    email: 'contato@kairova.com.br',
+    email: 'contato@kirova.com.br',
   },
   founded: 2021,
   employees: 145,
@@ -93,7 +93,7 @@ export const heroData = {
   ctaSecondary: 'Simular barramento GridGuard',
   image: {
     src: '/images/hero-patio-uberaba.jpg',
-    alt: 'Pátio logístico ao amanhecer em Uberaba com vans elétricas conectadas a estações Kairova FastHub 120 kW e engenheiro eletricista verificando telemetria em tablet',
+    alt: 'Pátio logístico ao amanhecer em Uberaba com vans elétricas conectadas a estações Kirova FastHub 120 kW e engenheiro eletricista verificando telemetria em tablet',
   },
   presets: [
     {
@@ -112,7 +112,7 @@ export const heroData = {
       id: 'fora-ponta',
       label: 'Janela fora de ponta (20%)',
       plantKw: 115,
-      note: 'Potência máxima liberada no horário de tarifa reduzida pelo Kairova OS.',
+      note: 'Potência máxima liberada no horário de tarifa reduzida pelo Kirova OS.',
     },
   ],
 };
@@ -129,7 +129,7 @@ export const hardwareLineup: HardwareItem[] = [
   {
     id: 'wallbox-pro',
     code: 'HW-01 · AC TRIFÁSICO',
-    name: 'Kairova Wallbox Pro 22kW',
+    name: 'Kirova Wallbox Pro 22kW',
     category: 'Recarga de pátio e pernoite',
     power: '22 kW AC',
     protection: 'IP66 · IK10',
@@ -145,7 +145,7 @@ export const hardwareLineup: HardwareItem[] = [
   {
     id: 'fasthub-120',
     code: 'HW-02 · DC ULTRARRÁPIDO',
-    name: 'Kairova FastHub 120kW',
+    name: 'Kirova FastHub 120kW',
     category: 'Centros de distribuição e paradas rodoviárias',
     power: '120 kW DC · 2x CCS2',
     protection: 'IP65 · Aço Galvanizado',
@@ -161,7 +161,7 @@ export const hardwareLineup: HardwareItem[] = [
   {
     id: 'gridguard',
     code: 'HW-03 · DLM FÍSICO',
-    name: 'Kairova GridGuard',
+    name: 'Kirova GridGuard',
     category: 'Balanceamento dinâmico de carga',
     power: 'Até 2.500 A por barramento',
     protection: 'Quadro industrial · TCs',
@@ -178,8 +178,8 @@ export const hardwareLineup: HardwareItem[] = [
 
 export const softwareModules: SoftwareModule[] = [
   {
-    id: 'kairova-os',
-    name: 'Kairova OS (Plataforma Cloud)',
+    id: 'kirova-os',
+    name: 'Kirova OS (Plataforma Cloud)',
     badge: 'SaaS · TELEMETRIA & ESG',
     summary:
       'Dashboard web e aplicativo móvel que centralizam consumo elétrico, custos e disponibilidade da frota em tempo real, com números exibidos em escala auditável por estação.',
@@ -191,8 +191,8 @@ export const softwareModules: SoftwareModule[] = [
     ],
   },
   {
-    id: 'kairova-pay',
-    name: 'Kairova Pay & Roaming',
+    id: 'kirova-pay',
+    name: 'Kirova Pay & Roaming',
     badge: 'MONETIZAÇÃO B2B',
     summary:
       'Módulo de cobrança direta por kWh consumido para condomínios logísticos, centros empresariais e shoppings que atendem frotas terceirizadas.',
@@ -253,12 +253,12 @@ export const caseStudies: CaseStudy[] = [
     utility: 'CEMIG',
     year: 2023,
     powerInstalled: '480 kW',
-    scope: ['GridGuard DLM', '4x FastHub 120kW', 'Kairova OS', 'Turnkey'],
+    scope: ['GridGuard DLM', '4x FastHub 120kW', 'Kirova OS', 'Turnkey'],
     summary:
       'Cenário referencial baseado no marco de 2023 com cooperativa agroindustrial no Triângulo Mineiro: quatro estações DC integradas ao transformador de 500 kVA dos silos sem ampliação de demanda contratada.',
     cover: {
       src: '/images/case-cooperativa-agro.jpg',
-      alt: 'Entardecer em pátio agroindustrial no Triângulo Mineiro com caminhões elétricos em estações Kairova FastHub ao lado de silos e subestação de 500 kVA',
+      alt: 'Entardecer em pátio agroindustrial no Triângulo Mineiro com caminhões elétricos em estações Kirova FastHub ao lado de silos e subestação de 500 kVA',
       seed: 1.4,
     },
     metrics: [
@@ -274,11 +274,11 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'Arquitetura com GridGuard e despacho noturno',
-        text: 'A equipe da Kairova instalou o controlador GridGuard no quadro geral e quatro estações FastHub 120kW com proteção IP65 contra poeira mineral. Durante picos da moagem, o barramento reduz automaticamente a corrente das baias e libera potência plena assim que a planta industrial entra na madrugada.',
+        text: 'A equipe da Kirova instalou o controlador GridGuard no quadro geral e quatro estações FastHub 120kW com proteção IP65 contra poeira mineral. Durante picos da moagem, o barramento reduz automaticamente a corrente das baias e libera potência plena assim que a planta industrial entra na madrugada.',
       },
       {
         heading: 'Resultado operacional',
-        text: 'A frota entrou em rota regular em seis semanas de obra turnkey, eliminando custos de adequação de média tensão e registrando cada kWh por placa no Kairova OS.',
+        text: 'A frota entrou em rota regular em seis semanas de obra turnkey, eliminando custos de adequação de média tensão e registrando cada kWh por placa no Kirova OS.',
       },
     ],
     placeholder: true,
@@ -297,14 +297,14 @@ export const caseStudies: CaseStudy[] = [
       'Eletrificação de três bases de última milha com 24 carregadores AC protegidos contra chuva e duas estações rápidas para janelas de almoço.',
     cover: {
       src: '/images/hero-patio-uberaba.jpg',
-      alt: 'Vans elétricas de entrega urbana acopladas a estações Kairova em centro de distribuição logístico',
+      alt: 'Vans elétricas de entrega urbana acopladas a estações Kirova em centro de distribuição logístico',
       seed: 2.8,
     },
     metrics: [
       { label: 'Pontos instalados', value: '26 conectores em 3 pátios' },
       { label: 'Identificação de frota', value: 'RFID vinculado ao motorista' },
       { label: 'SLA contratado', value: 'Atendimento local em até 6 h' },
-      { label: 'Redução de demanda de ponta', value: '34% via agendamento Kairova OS' },
+      { label: 'Redução de demanda de ponta', value: '34% via agendamento Kirova OS' },
     ],
     sections: [
       {
@@ -313,7 +313,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'Monitoramento proativo e controle RFID',
-        text: 'Com Wallbox Pro 22kW conectados via 4G e leitor RFID nativo, o Kairova OS passou a associar cada sessão ao centro de custo da rota e alertar o NOC 24/7 em Uberaba diante de qualquer oscilação de fase.',
+        text: 'Com Wallbox Pro 22kW conectados via 4G e leitor RFID nativo, o Kirova OS passou a associar cada sessão ao centro de custo da rota e alertar o NOC 24/7 em Uberaba diante de qualquer oscilação de fase.',
       },
       {
         heading: 'Resultado operacional',
@@ -331,12 +331,12 @@ export const caseStudies: CaseStudy[] = [
     utility: 'CPFL Paulista',
     year: 2026,
     powerInstalled: '360 kW',
-    scope: ['Kairova Pay & Roaming', '3x FastHub 120kW', 'Laudo CEMIG/CPFL'],
+    scope: ['Kirova Pay & Roaming', '3x FastHub 120kW', 'Laudo CEMIG/CPFL'],
     summary:
       'Infraestrutura compartilhada multiusuário com cobrança automatizada via Pix e tags veiculares para locatários e caminhões visitantes.',
     cover: {
       src: '/images/hardware-lineup.jpg',
-      alt: 'Linha completa de carregadores Kairova Wallbox Pro, FastHub 120 kW e controlador GridGuard em instalação industrial',
+      alt: 'Linha completa de carregadores Kirova Wallbox Pro, FastHub 120 kW e controlador GridGuard em instalação industrial',
       seed: 4.1,
     },
     metrics: [
@@ -351,8 +351,8 @@ export const caseStudies: CaseStudy[] = [
         text: 'Condomínios logísticos enfrentam resistência para instalar carregadores nas áreas comuns porque a conta de energia recai sobre o rateio condominial. O empreendimento precisava separar o consumo por transportadora visitante e gerar receita transparente.',
       },
       {
-        heading: 'Monetização direta com Kairova Pay',
-        text: 'A Kairova entregou projeto executivo, obra civil em concreto e três estações FastHub integradas ao Kairova Pay & Roaming, permitindo que motoristas autorizados iniciem a recarga pelo celular ou tag do veículo.',
+        heading: 'Monetização direta com Kirova Pay',
+        text: 'A Kirova entregou projeto executivo, obra civil em concreto e três estações FastHub integradas ao Kirova Pay & Roaming, permitindo que motoristas autorizados iniciem a recarga pelo celular ou tag do veículo.',
       },
       {
         heading: 'Resultado operacional',
@@ -365,13 +365,13 @@ export const caseStudies: CaseStudy[] = [
 
 export const companyStory = {
   intro:
-    'Três engenheiros formados no ecossistema tecnológico do Triângulo Mineiro (Henrique Bastos em Engenharia Elétrica, Camila Nogueira em Software e IoT, e Rafael Telles em Cadeias Logísticas) fundaram a Kairova em 2021 em Uberaba, Minas Gerais.',
+    'Três engenheiros formados no ecossistema tecnológico do Triângulo Mineiro (Henrique Bastos em Engenharia Elétrica, Camila Nogueira em Software e IoT, e Rafael Telles em Cadeias Logísticas) fundaram a Kirova em 2021 em Uberaba, Minas Gerais.',
   origin:
     'A criação da empresa partiu de um obstáculo prático observado no agronegócio e no transporte rodoviário brasileiro: companhias decididas a eletrificar vans e caminhões médios esbarravam na instabilidade das redes elétricas locais e na falta de softwares nacionais ligando o hardware de potência ao controle financeiro em tempo real.',
   etymology:
-    'O nome Kairova une o conceito grego Kairós (o momento certo) ao sufixo de movimento contínuo. Do galpão de prototipagem em Uberaba, onde produzimos os primeiros balanceadores para subestações industriais, fechamos nosso primeiro grande contrato com uma cooperativa agroindustrial em 2023 e alcançamos 9 estados e mais de 1.800 pontos inteligentes em 2026.',
+    'O nome Kirova une o conceito grego Kairós (o momento certo) ao sufixo de movimento contínuo. Do galpão de prototipagem em Uberaba, onde produzimos os primeiros balanceadores para subestações industriais, fechamos nosso primeiro grande contrato com uma cooperativa agroindustrial em 2023 e alcançamos 9 estados e mais de 1.800 pontos inteligentes em 2026.',
   uvp:
-    'Enquanto carregadores importados genéricos deixam a operação descoberta no pós-venda e multinacionais trabalham com contratos em dólar e prazos rígidos, a Kairova entrega engenharia nacional com software próprio e equipe presencial no Brasil. Isso torna o retorno financeiro da eletrificação mensurável e auditável.',
+    'Enquanto carregadores importados genéricos deixam a operação descoberta no pós-venda e multinacionais trabalham com contratos em dólar e prazos rígidos, a Kirova entrega engenharia nacional com software próprio e equipe presencial no Brasil. Isso torna o retorno financeiro da eletrificação mensurável e auditável.',
   founders: [
     {
       name: 'Henrique Bastos',
@@ -380,8 +380,8 @@ export const companyStory = {
     },
     {
       name: 'Camila Nogueira',
-      role: 'Engenharia de Software, IoT e Kairova OS',
-      bio: 'Arquiteta da plataforma cloud Kairova OS, do módulo de cobrança Kairova Pay e da pilha nacional OCPP 2.0.1 embarcada em campo com conectividade redundante 4G e Wi-Fi.',
+      role: 'Engenharia de Software, IoT e Kirova OS',
+      bio: 'Arquiteta da plataforma cloud Kirova OS, do módulo de cobrança Kirova Pay e da pilha nacional OCPP 2.0.1 embarcada em campo com conectividade redundante 4G e Wi-Fi.',
     },
     {
       name: 'Rafael Telles',
@@ -403,7 +403,7 @@ export const companyStory = {
     {
       index: '02',
       title: 'Transparência em Tempo Real',
-      text: 'Da mesma forma que o Kairova OS registra cada watt consumido nas estações, nossa relação com equipes internas e clientes apoia-se em dados abertos de medição, custos e disponibilidade.',
+      text: 'Da mesma forma que o Kirova OS registra cada watt consumido nas estações, nossa relação com equipes internas e clientes apoia-se em dados abertos de medição, custos e disponibilidade.',
     },
     {
       index: '03',
@@ -423,7 +423,7 @@ export const companyStory = {
         'Software, Design e Produto atuam em regime híbrido com dois dias presenciais em Uberaba para alinhamento de arquitetura e sprints. Hardware, P&D e Operações de Campo atuam presencialmente no laboratório e nos hubs regionais.',
     },
     {
-      name: 'Kairova Lab Day (sextas-feiras quinzenais)',
+      name: 'Kirova Lab Day (sextas-feiras quinzenais)',
       detail:
         'Bloco protegido de quatro horas para equipes multidisciplinares testarem protótipos em bancada, refatorarem sistemas legados e proporem melhorias nos procedimentos de instalação em pátio.',
     },
@@ -440,6 +440,6 @@ export const companyStory = {
   ],
   labImage: {
     src: '/images/engenharia-campo-noc.jpg',
-    alt: 'Engenheiro eletricista testando placa de potência no laboratório da Kairova em Uberaba com o NOC 24/7 exibindo gráficos de carga ao fundo',
+    alt: 'Engenheiro eletricista testando placa de potência no laboratório da Kirova em Uberaba com o NOC 24/7 exibindo gráficos de carga ao fundo',
   },
 };

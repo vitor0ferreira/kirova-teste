@@ -66,7 +66,7 @@ export function Footer() {
               </li>
               <li>
                 <Link className="util-link" href="/#software">
-                  Kairova OS &amp; Pay
+                  Kirova OS &amp; Pay
                 </Link>
               </li>
               <li>
@@ -83,7 +83,7 @@ export function Footer() {
         <div className="footer-wordmark-row">
           <LogoMark size={48} className="footer-mark" />
           <span className="footer-wordmark" aria-hidden="true">
-            KAIROVA
+            KIROVA
           </span>
         </div>
         <div className="footer-colophon">

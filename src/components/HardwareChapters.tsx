@@ -37,7 +37,7 @@ export function HardwareChapters() {
         <figure className="hw-media">
           <Image
             src="/images/hardware-lineup.jpg"
-            alt="Linha de hardware proprietário Kairova: Wallbox Pro 22kW, estação ultrarrápida FastHub 120kW e controlador GridGuard montados em concreto e aço"
+            alt="Linha de hardware proprietário Kirova: Wallbox Pro 22kW, estação ultrarrápida FastHub 120kW e controlador GridGuard montados em concreto e aço"
             width={1792}
             height={1024}
             sizes="(max-width: 900px) 100vw, 52vw"

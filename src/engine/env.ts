@@ -2,7 +2,7 @@ export const prefersReducedMotion = () => matchMedia('(prefers-reduced-motion: r
 export const isTouch = () => matchMedia('(hover: none), (pointer: coarse)').matches;
 export const isMobile = () => matchMedia('(max-width: 767px)').matches;
 
-// Shared easing vocabulary for Kairova: crisp contactor snap + damped voltage stabilization.
+// Shared easing vocabulary for Kirova: crisp contactor snap + damped voltage stabilization.
 export const ease = {
   out: 'expo.out', // default entrance
   inOut: 'expo.inOut', // curtains, page transitions

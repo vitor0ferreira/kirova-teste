@@ -4,7 +4,7 @@ import { NocPulseStrip } from '@/components/NocPulseStrip';
 
 export const metadata: Metadata = {
   title: '404 · Estação não localizada',
-  description: 'Circuito aberto no barramento de rotas da Kairova. Retorne ao painel principal.',
+  description: 'Circuito aberto no barramento de rotas da Kirova. Retorne ao painel principal.',
 };
 
 export default function NotFound() {
@@ -15,7 +15,7 @@ export default function NotFound() {
           <span className="notfound-alert">NOC 24/7 · FALHA DE ROTEAMENTO · CIRCUITO ABERTO</span>
           <h1>Estação não localizada neste barramento.</h1>
           <p style={{ color: 'var(--c-muted)', maxWidth: '48ch' }}>
-            O endereço solicitado não corresponde a nenhum ponto ativo na rede da Kairova. Nenhum transformador foi sobrecarregado durante esta leitura.
+            O endereço solicitado não corresponde a nenhum ponto ativo na rede da Kirova. Nenhum transformador foi sobrecarregado durante esta leitura.
           </p>
           <div className="notfound-readout">
             STATUS 404 · TENSÃO DE BARRAMENTO 000 V · DISJUNTOR ABERTO

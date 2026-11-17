@@ -181,7 +181,7 @@ const CHARGERS = (
 );
 
 const LABEL =
-  'Bancada isométrica do controlador Kairova GridGuard DLM. Um transformador industrial de 500 kVA alimenta o barramento central; o carro móvel desliza sobre guias entre molas helicoidais para redistribuir potência disponível às estações FastHub 120 kW e Wallbox Pro 22 kW sem ultrapassar a demanda contratada.';
+  'Bancada isométrica do controlador Kirova GridGuard DLM. Um transformador industrial de 500 kVA alimenta o barramento central; o carro móvel desliza sobre guias entre molas helicoidais para redistribuir potência disponível às estações FastHub 120 kW e Wallbox Pro 22 kW sem ultrapassar a demanda contratada.';
 
 export function GridGuardArt() {
   return (
